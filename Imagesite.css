@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgba(255, 255, 255, 0.721)
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .content{
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    border-top:solid 2px black; 
+    margin-top:3%;
+  }
+  .imgContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    justify-content: 2px;
+    
+  }
+  .imgContainer img{
+    width: 100%;
+    
+  }
+  .footer{
+    background-color: black;
+    color: white;
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+  }
+  li{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    margin-right: 34px;
+    color: rgba(255, 255, 255, 0.551);
+  }
+
+  .about{
+    color: white;
+    background-color: black;
+    border-radius: 3%;
+}
+.policy{
+  color: white;
+    background-color: black;
+    border-radius: 3%;
+}
+
+.licenses{
+  color: white;
+  background-color: black;
+  border-radius: 3%;
+}
+
+
+@media (max-width:768px) {
+
+  .imgContainer{
+grid-template-columns: repeat(1,1fr);  }
+  .imgContainer img{
+    width: 100%;
+   
+  }
+  
+}
+  
+ 
+  
+  
+  
+  /* @media screen and (max-height: 768px) { 
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+
+    .imgContainer{
+      flex-direction: column;
+    }
+    body{
+      background-color: red;
+    }
+
+    AKJWEL01.png
+    AKFOOD01.png
+
+  }*/
+/*
+
+.sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+*/
